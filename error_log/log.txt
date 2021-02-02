@@ -1,0 +1,107 @@
+[15-Dec-2020 15:14:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php:30
+Stack trace:
+#0 /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/Listing.class.php(21): DBconn->connect()
+#1 /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/Controllisting.class.php(9): Listing->parse_csv_data('./asset/')
+#2 /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/index.php(15): Controllisting->parseListingFile('./asset/')
+#3 {main}
+  thrown in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 30
+[15-Dec-2020 15:18:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 35
+[15-Dec-2020 15:18:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php:30
+Stack trace:
+#0 /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/Listing.class.php(21): DBconn->connect()
+#1 /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/Controllisting.class.php(9): Listing->parse_csv_data('./asset/')
+#2 /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/index.php(15): Controllisting->parseListingFile('./asset/')
+#3 {main}
+  thrown in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 30
+[15-Dec-2020 15:25:40 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 35
+[15-Dec-2020 15:26:42 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 35
+[15-Dec-2020 15:32:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 35
+[15-Dec-2020 15:35:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 35
+[15-Dec-2020 15:36:49 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 35
+[15-Dec-2020 15:41:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 35
+[15-Dec-2020 15:43:47 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 35
+[15-Dec-2020 15:43:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 35
+[15-Dec-2020 15:44:06 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /Users/jiyangye/.bitnami/stackman/machines/xampp/volumes/root/htdocs/classes/DBconn.class.php on line 35
+[08-Jan-2021 21:47:38 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Call to protected method Viewlisting::get_city_name_list() from global scope in /opt/lampp/htdocs/runthis.php:39
+Stack trace:
+#0 {main}
+  thrown in /opt/lampp/htdocs/runthis.php on line 39
+[08-Jan-2021 21:51:35 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:52:01 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:52:27 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:52:53 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:53:20 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:53:46 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:54:12 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:54:38 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:55:06 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:55:31 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:55:55 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:56:20 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:56:45 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:57:11 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:57:38 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:58:04 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:58:30 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:58:57 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:59:25 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 21:59:51 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:00:17 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:00:43 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:01:09 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:01:44 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:02:09 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:02:34 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:03:00 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:03:27 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:03:52 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:04:17 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:04:41 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:05:07 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:05:33 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:05:58 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:06:24 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:06:50 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:07:17 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:07:45 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:08:13 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[08-Jan-2021 22:08:44 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[10-Jan-2021 21:15:56 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'SqFtTotal' in 'field list' in /opt/lampp/htdocs/classes/DBconn.class.php:42
+Stack trace:
+#0 /opt/lampp/htdocs/classes/DBconn.class.php(42): PDO->prepare('SELECT ( CloseP...')
+#1 /opt/lampp/htdocs/classes/Listing.class.php(262): DBconn->query(Object(PDO), 'SELECT ( CloseP...')
+#2 /opt/lampp/htdocs/classes/Viewlisting.class.php(194): Listing->get_sqft_statistic(Array, 'sold_listing', 'ClosePrice')
+#3 /opt/lampp/htdocs/classes/Viewlisting.class.php(155): Viewlisting->get_sqft_price_statistic('sold_listing', Array, Array, 'ClosePrice', Array)
+#4 /opt/lampp/htdocs/runthis.php(279): Viewlisting->generate_sqft_price_statistic(Array, 'sold_listing', 'ClosePrice', Array)
+#5 /opt/lampp/htdocs/classes/Process.class.php(285): {closure}(Array, Array)
+#6 /opt/lampp/htdocs/classes/Process.class.php(25): Process->series_date_compare_report(Array, Object(Closure), Array)
+#7 /opt/lampp/htdocs/runthis.php(282): Process->PopulateComparesionResult('seriesDateCompa...', Object(Closure), Array, Array)
+#8 /opt/lampp/htdocs/runthis.php(82): save_price_per_sqft_statistic('price_per_sqft_...')
+#9 {main}
+  thrown in /opt/lampp/htdocs/classes/DBconn.class.php on line 42
+[10-Jan-2021 21:17:27 America/Los_Angeles] PHP Warning:  Undefined variable $previous in /opt/lampp/htdocs/classes/Process.class.php on line 288
+[10-Jan-2021 21:21:38 America/Los_Angeles] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /opt/lampp/htdocs/classes/Process.class.php on line 363 and exactly 2 expected in /opt/lampp/htdocs/runthis.php:275
+Stack trace:
+#0 /opt/lampp/htdocs/classes/Process.class.php(363): {closure}(Array)
+#1 /opt/lampp/htdocs/classes/Process.class.php(43): Process->basic_report(Object(Closure), Array)
+#2 /opt/lampp/htdocs/runthis.php(282): Process->PopulateComparesionResult('basicReport', Object(Closure), Array, Array)
+#3 /opt/lampp/htdocs/runthis.php(82): save_price_per_sqft_statistic('price_per_sqft_...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/runthis.php on line 275
+[11-Jan-2021 20:47:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ in C:\xampp\htdocs\classes\DBconn.class.php:31
+Stack trace:
+#0 C:\xampp\htdocs\classes\Listing.class.php(125): DBconn->connect()
+#1 C:\xampp\htdocs\classes\Listing.class.php(102): Listing->insert_data('146303108', 'sold_listing', 'StatusContractu...', '2020-12-06')
+#2 C:\xampp\htdocs\classes\Controllisting.class.php(19): Listing->populate_data(Array)
+#3 C:\xampp\htdocs\runthis.php(127): Controllisting->populateData(Array)
+#4 {main}
+  thrown in C:\xampp\htdocs\classes\DBconn.class.php on line 31
+[11-Jan-2021 20:55:27 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM sold_listing' at line 1 in C:\xampp\htdocs\classes\DBconn.class.php:42
+Stack trace:
+#0 C:\xampp\htdocs\classes\DBconn.class.php(42): PDO->prepare('DELETE * FROM s...')
+#1 C:\xampp\htdocs\classes\Listing.class.php(266): DBconn->query(Object(PDO), 'DELETE * FROM s...')
+#2 C:\xampp\htdocs\classes\Controllisting.class.php(40): Listing->delete_data_from_table('sold_listing')
+#3 C:\xampp\htdocs\runthis.php(95): Controllisting->DeleteTable('sold_listing')
+#4 {main}
+  thrown in C:\xampp\htdocs\classes\DBconn.class.php on line 42
